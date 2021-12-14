@@ -1,0 +1,73 @@
+body {
+	background: #2A2C2F;
+}
+
+.page {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Inter', 'Arial', sans-serif;
+  background: #2A2C2F;
+  color: #FFF;
+}
+
+/* Начало header */
+.header {
+	display: flex;
+	margin: 28px 48px 56px;
+	justify-content: space-between;
+}
+
+.header__lang-links {
+	list-style: none;
+	display: flex;
+}
+
+.header__lang-link {
+	color: white;
+  text-decoration: none;
+  font-size: 24px;
+	line-height: 28px;
+	margin-left: 18px;
+}
+
+.header__lang-link_underline {
+	border-bottom: 2px solid #FFF;
+}
+/* Конец header */
+/* Начало lead */
+
+.lead {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+	width: 984px;
+	margin: 0 auto 92px;
+}
+
+.lead__title {
+	font-weight: 900;
+	font-size: 96px;
+	line-height: 100px;
+	margin: 0 auto 32px;
+	padding: 0;
+	max-width: 720px;
+}
+
+.lead__subtitle {
+	font-size: 30px;
+	line-height: 36px;
+	text-align: center;
+	margin: 0 auto 64px;
+	padding: 0;
+	max-width: 640px;
+}
+
+.lead__caption {
+	align-self: flex-start;
+	font-size: 10px;
+	line-height: 14px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+/* Конец lead */
