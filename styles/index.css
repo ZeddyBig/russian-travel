@@ -17,6 +17,11 @@ body {
 	justify-content: space-between;
 }
 
+.header__logo {
+	width: 176px;
+	height: 52px;
+}
+
 .header__lang-links {
 	list-style: none;
 	display: flex;
@@ -374,6 +379,10 @@ body {
 }
 
 @media screen and (max-width: 1023px) {
+	.header {
+		margin: 28px 24px 48px;
+	}
+
 	.lead {
 		width: 100%;
 		margin: 0 auto 88px;
@@ -434,9 +443,129 @@ body {
 }
 
 @media screen and (max-width: 767px) {
-	
-}
+	.header {
+		margin: 16px 16px 48px;
+	}
 
-@media screen and (max-width: 320px) {
+	.header__logo {
+		width: 142px;
+		height: 42px;
+	}
 
+	.header__lang-link {
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.lead {
+		margin: 0 auto 64px;
+	}
+
+	.lead__title {
+		width: 288px;
+		font-size: 40px;
+		line-height: 44px;
+	}
+
+	.lead__subtitle {
+		width: 288px;
+		font-size: 16px;
+		line-height: 20px;
+		margin: 0 auto 40px;
+	}
+
+	.lead__caption {
+		margin: 0 0 0 16px;
+	}
+
+	.intro {
+		margin: 0 16px 64px;
+		width: calc(100% - 32px);
+	}
+
+	.intro__title {
+		width: 288px;
+		font-size: 32px;
+		line-height: 35px;
+	}
+
+	.intro__text {
+		width: 288px;
+		height: auto;
+		margin: 0 0 33px;
+	}
+
+	.photo-grid {
+		width: calc(320px - 32px);
+		grid-template-columns: repeat(1, 1fr);
+		margin: 0 auto 64px;
+		gap: 12px;
+	}
+
+	.places {
+		margin: 0 auto 66px;
+	}
+
+	.place {
+		grid-template-columns: 1fr;
+		gap: 32px;
+	  max-width: 100%;
+	  margin: 0 0 50px;
+	}
+
+	.place__title {
+		font-size: 32px;
+		line-height: 35px;
+		max-width: 288px;
+		margin: 0 16px;
+	}
+
+	.place__website {
+		max-width: 288px;
+		margin: 0 16px;
+	}
+
+	.place__image {
+		height: 100%;
+		width: 100%;
+	}
+
+	.place__paragraph {
+		margin: 0 16px 25px;
+	}
+
+	.cover {
+		height: 200px;
+		margin: 0 auto 64px;
+	}
+
+	.cover__title {
+		width: 288px;
+		height: auto;
+		font-size: 32px;
+		line-height: 35px;
+		margin: 0 0 16px;
+	}
+
+	.cover__subtitle {
+		width: 288px;
+		height: auto;
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	.footer {
+		flex-direction: column;
+		margin: 0 16px 24px;
+	}
+
+	.footer__links {
+		flex-direction: column;
+		margin: 0 0 48px;
+		gap: 32px;
+	}
+
+	.footer__link {
+		margin: 0;
+	}
 }
