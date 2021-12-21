@@ -1,0 +1,12 @@
+.cover__background-img {
+	width: 1184px;
+	height: 740px;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 1279px) {
+	.cover__background-img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
