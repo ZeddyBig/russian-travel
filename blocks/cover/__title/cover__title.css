@@ -8,6 +8,7 @@
 	padding: 0;
 	width: 560px;
 	height: 152px;
+	white-space: pre-line;
 	z-index: 2;
 }
 
